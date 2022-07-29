@@ -27,13 +27,13 @@ def fraud_detection(input_data):
 
 def main():
 
-    st.title ("Detecting Fraudulent Transactions")
+    st.title ("Detecting Fraudulent Transactions Using Adaboost Algorithm")
     
 
     ### input data
 
-    step = st.text_input("step of transaction")
-    type= st.text_input("Form Of The Transaction")
+    step(1-744 time) = st.text_input("step of transaction")
+    type(1-4 CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER)= st.text_input("Form Of The Transaction")
     amount = st.text_input("Amount Per Transaction")
     oldbalanceOrg = st.text_input("Account Balance Of Sender")
     newbalanceOrig= st.text_input("New Balance Of Sender")
@@ -46,7 +46,7 @@ def main():
 
     #creating a button 
     if st.button('Detect Fraud'):
-        detection = fraud_detection([step, type, amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest,  isFlaggedFraud])
+        detection = fraud_detection([step(1-744 time), type(1-4 CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER), amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest,  isFlaggedFraud])
 
 
     st.success(detection)
