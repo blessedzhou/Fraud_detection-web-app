@@ -46,7 +46,7 @@ def main():
 
     #creating a button 
     if st.button('Detect Fraud'):
-        detection = fraud_detection([step(1-744 time), type(1-4 CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER), amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest,  isFlaggedFraud])
+        detection = fraud_detection([step, type, amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest,  isFlaggedFraud])
 
 
     st.success(detection)
