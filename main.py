@@ -32,14 +32,14 @@ def main():
 
     ### input data
 
-    step = st.text_input("step of transaction")
-    type = st.text_input("Form Of The Transaction")
-    amount = st.text_input("Amount Per Transaction")
-    oldbalanceOrg = st.text_input("Account Balance Of Sender")
-    newbalanceOrig = st.text_input("New Balance Of Sender")
-    oldbalanceDest = st.text_input("Old Balance For Destination Account")
-    newbalanceDest = st.text_input("New Account Balance For Destination")
-    isFlaggedFraud = st.text_input("Is Really Fraud")
+    step(1-744 unit of time) = st.text_input("step of transaction")
+    type(1-4 CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER)= st.text_input("Form Of The Transaction")
+    amount(transaction amount) = st.text_input("Amount Per Transaction")
+    oldbalanceOrg(Initial balance of sender) = st.text_input("Account Balance Of Sender")
+    newbalanceOrig(balance of sender after transaction) = st.text_input("New Balance Of Sender")
+    oldbalanceDest(initial balance of destination account) = st.text_input("Old Balance For Destination Account")
+    newbalanceDest(balance after transaction of destination) = st.text_input("New Account Balance For Destination")
+    isFlaggedFraud(0-1 either no or yes, transaction flagged as fraudulent by the bank) = st.text_input("Is Really Fraud")
 
     ## detecting
     detection = ''
