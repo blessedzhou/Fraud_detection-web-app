@@ -33,7 +33,7 @@ def main():
     ### input data
 
     step = st.text_input("step of transaction")
-    type[1-4 CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER]= st.text_input("Form Of The Transaction")
+    type = st.text_input("Form Of The Transaction")
     amount = st.text_input("Amount Per Transaction")
     oldbalanceOrg = st.text_input("Account Balance Of Sender")
     newbalanceOrig= st.text_input("New Balance Of Sender")
