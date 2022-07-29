@@ -32,7 +32,7 @@ def main():
 
     ### input data
 
-    step = st.text_input("step(1-744 time hour of transction")
+    step = st.text_input("step(1-744 time hour of transction"))
     type = st.text_input("Form Of The Transaction(CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER)1-4")
     amount = st.text_input("Amount Of Transaction")
     oldbalanceOrg = st.text_input("Initial Account Balance Of Sender")
